@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "BRLNSR";
+  src: url("BRLNSR.woff2") format("woff2"),
+       url("BRLNSR.woff") format("woff"),
+       url("BRLNSR.ttf") format("truetype"),
+       url("BRLNSR.eot") format("embedded-opentype"),
+       url("BRLNSR.svg") format("svg"),
+       url("BRLNSR.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}

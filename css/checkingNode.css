@@ -1,0 +1,58 @@
+.rolling_box {
+   text-rendering: auto;
+   color: -internal-light-dark(black, white);
+   letter-spacing: normal;
+   word-spacing: normal;
+   text-transform: none;
+   text-indent: 0px;
+   text-shadow: none;
+   display: inline-block;
+   text-align: start;
+   appearance: auto;
+   -webkit-rtl-ordering: logical;
+   cursor: text;
+   font-weight: 400;
+   font-size: 14px;
+   padding: 1px 2px;
+   margin-top:15px;
+   user-select:none;
+}
+
+.rolling_code_bar{
+    border:1px solid #ccc;
+    position:relative;
+    background:#eee;
+    width: 320px;
+    height: 40px;
+    font-weight: 700;
+    border-radius: 20px;
+}
+
+.top_bar{
+    position:absolute;
+    width:100%;
+    height:100%;
+    z-index: 1;
+}
+
+.bottom_bar{
+    height:100% +1px;
+    color:#333;
+    text-align: center;
+    cursor:pointer;
+    position:absolute;
+    z-index: 2;
+    line-height: 40px;
+    font-size: 12px;
+    width: 60px;
+    border-radius: 20px;
+    background: linear-gradient(rgb(245, 245, 245),rgb(255,255,255));
+}
+
+.small_tips{
+    text-align: center;
+    color:#888;
+    font-size: 12px;
+    line-height: 40px;
+}
+
